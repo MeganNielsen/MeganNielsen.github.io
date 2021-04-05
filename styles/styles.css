@@ -2,6 +2,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 60px;
     margin-bottom: 20px;
+    background-image: url('/img/background_image.JPG');
+    background-size: 100% 100%;
+    background-attachment: fixed;
 }
 
 #name {
@@ -25,7 +28,7 @@ table, th, td, tr {
     border-spacing: 3px;
     padding: 3px;
     text-align: center;
-    column-width: 120px;
+    column-width: 160px;
 }
 
 .anchor{
@@ -80,7 +83,8 @@ table, th, td, tr {
 
 .centered{
     margin: auto;
-    width: 50%;
+    width: 60%;
     border: 3px solid black;
     padding: 10px;
+    background-color: #ffffff;
 }
