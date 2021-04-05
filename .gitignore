@@ -5,4 +5,9 @@
 desktop.ini
 thumbs.db
 
-LICENSE
+#VS Code
+.vs
+.vscode
+
+#Webstorm
+.idea
