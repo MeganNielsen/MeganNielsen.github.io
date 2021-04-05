@@ -1,6 +1,13 @@
 body {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
+
+#name {
+    font-family: "Appple Cancery", cursive;
+}
+
 blockquote {
     font-style: italic;
     margin-top: 2px;
@@ -17,4 +24,63 @@ table, th, td, tr {
     border: 1px solid black;
     border-spacing: 3px;
     padding: 3px;
+    text-align: center;
+    column-width: 120px;
+}
+
+.anchor{
+    padding-top: 90px;
+}
+.topnav{
+    overflow: hidden;
+    position: fixed;
+    background: black;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+
+}
+.topnav a:hover{
+    background: gray;
+}
+
+/*style the cells*/
+.homework{
+    background-color: green;
+}
+.cpp {
+    background-color: grey;
+}
+.math {
+    background-color: lightcyan;
+}
+.webDev{
+    background-color: lightgreen;
+}
+.work {
+    background-color: lightseagreen;
+}
+
+.footer{
+    left: 0px;
+    color: white;
+    overflow: hidden;
+    position: fixed;
+    background: black;
+    bottom: 0;
+    width: 100%;
+}
+
+.centered{
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
 }
