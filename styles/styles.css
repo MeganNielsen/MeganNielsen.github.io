@@ -7,8 +7,21 @@ body {
     background-attachment: fixed;
 }
 
-#name {
+
+img{
+    float: right;
+    margin-top: 20px;
+}
+
+.name {
     font-family: "Appple Cancery", cursive;
+    font-weight: bold;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+#id{
+    align-self: right;
 }
 
 blockquote {
@@ -32,7 +45,7 @@ table, th, td, tr {
 }
 
 .anchor{
-    padding-top: 90px;
+    padding-top: 60px;
 }
 .topnav{
     overflow: hidden;
