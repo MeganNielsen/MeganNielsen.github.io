@@ -67,19 +67,22 @@ table, th, td, tr {
 
 /*style the cells*/
 .homework{
-    background-color: #687864;
+    background-color: #74b963;
 }
 .cpp {
     background-color: #31708E;
 }
 .math {
-    background-color: #5085A5;
+    background-color: #438ab6;
 }
 .webDev{
-    background-color: #8FC1E3;
+    background-color: rgb(50, 143, 92);
 }
 .work {
-    background-color: mediumseagreen;
+    background-color: #8FC1E3;
+}
+.lunch {
+    background-color: gray;
 }
 
 .footer{
