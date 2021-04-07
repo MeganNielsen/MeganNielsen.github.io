@@ -13,23 +13,27 @@ img{
     margin-top: 20px;
 }
 
-.name {
-    font-family: cursive;
-    font-weight: bold;
-    width: 100%;
-    text-align: center;
-    background-color: #5085A5;
-    color: white;
-}
 
 blockquote {
     font-style: italic;
     margin-top: 2px;
 }
-h1, h2 {
+.title {
     font-weight: normal;
     margin-bottom: 2px;
 }
+
+#nameDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+    background-color: #5085A5;
+    font-family: cursive;
+    font-weight: bold;
+    color: white;
+}
+
 p, ul, ol {
     margin: 2px;
 }
@@ -101,4 +105,6 @@ table, th, td, tr {
     border: 3px solid black;
     padding: 20px;
     background-color: #ffffff;
+    margin-top: 50px;
+    margin-bottom:23px;
 }
