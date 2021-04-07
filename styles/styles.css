@@ -23,7 +23,7 @@ blockquote {
     margin-bottom: 2px;
 }
 
-#nameDiv {
+header {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,7 +89,7 @@ table, th, td, tr {
     background-color: gray;
 }
 
-.footer{
+footer{
     left: 0px;
     color: white;
     overflow: hidden;
