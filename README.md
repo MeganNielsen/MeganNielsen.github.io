@@ -3,7 +3,7 @@
 
 This is a small webpage that gives info on who I am.
 
-1) CSS3 Web Fonts - fancy font for my name
+1) CSS3 Web Fonts - fancy font for my name, sans seriff for the page.
 2) Artistic Portrait - photo uses float.
 3) Nav Menu
 4) Sticky Nav Menu
